@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venta de Boletos de Camiones - Viajes Turísticos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Venta de Boletos de Camiones - Viajes Turísticos</h1>
+    <form id="ticketForm">
+      <label for="destination">Destino:</label>
+      <select id="destination">
+        <option value="1">Playa del Carmen</option>
+        <option value="2">Cancún</option>
+        <option value="3">Tulum</option>
+      </select>
+      <label for="quantity">Cantidad de Boletos:</label>
+      <input type="number" id="quantity" min="1" value="1">
+      <button type="submit">Calcular Precio</button>
+    </form>
+    <div id="totalPrice"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
